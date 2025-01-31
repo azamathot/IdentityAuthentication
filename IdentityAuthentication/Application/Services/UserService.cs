@@ -53,7 +53,7 @@ namespace WebApplication5.Application.Services
         // Обновить данные пользователя
         public async Task<bool> UpdateUserAsync(UserDTO userDto)
         {
-            var user = await _userManager.FindByIdAsync(userDto.Id);
+            var user = await _userManager.FindByIdAsync(userDto.Id.ToString());
             if (user == null)
             {
                 return false;

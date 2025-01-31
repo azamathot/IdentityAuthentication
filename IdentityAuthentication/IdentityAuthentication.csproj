@@ -24,6 +24,7 @@
     <Folder Include="Infrastructure\Identity\" />
     <Folder Include="Infrastructure\Data\" />
     <Folder Include="Infrastructure\Services\" />
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>
